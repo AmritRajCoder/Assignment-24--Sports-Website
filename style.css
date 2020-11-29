@@ -100,6 +100,7 @@ header .content{
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 60px;
+    padding-bottom: 50px;
 }
 #achieve h2{
     font-size: 235%;
@@ -107,46 +108,13 @@ header .content{
     margin-left: 20px;
 }
 .ani1 ul{
-    list-style-type:none;
-    padding: 50px 0;
-}
-.ani1 ul li{
-    position: relative;
-    width: 7px;
-    margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background: #fff;
+    list-style-type: none;
+    padding-left: 50px;
 }
 
 .ani1 ul li div{
-    position: relative;
-    bottom: 0;
-    width: 400px;
-    padding: 15px;
-    border-radius: 10px;
     font-size: 17px;
-    color: #FFFF17;
-}
-.ani1 ul li:nth-child(odd) div{
-    left: 45px;
-    transform: translate3d(200px, 0, 0);
-}
-.ani1 ul li:nth-child(even) div{
-    left: -439px;
-    transform: translate3d(-200px, 0, 0);
-}
-
-.ani1 ul li div
-{
-visibility: hidden;
-opacity: 0;
-transition: all .7s ease-in-out;
-}
-
-.ani1 ul li.in-view div
-{
-transform: none;
-visibility: visible;
-opacity: 1;
+    color: #b3ff00;
+    font-size: 17px;
+    margin-bottom: 16px;
 }
